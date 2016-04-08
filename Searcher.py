@@ -22,7 +22,7 @@ with open(pathToScript+blackListName) as f:
 
 def log(string):
     with open(pathToScript+logName, "a") as f:
-        f.write(strftime("%Y-%m-%d %H,%M,%S") + string + "\n")
+        f.write(strftime("%Y-%m-%d %H,%M,%S: ") + string + "\n")
 
 def triggerCommandC():
      system('osascript -e \'tell application "System Events" to keystroke "c" using {command down}\'');
@@ -113,7 +113,8 @@ if __name__=='__main__':
     triggerCommandC();
     after = getClipboardData();
     i = 0;
-    while (after == before && len(before) != 20):
+    while (after == before and len(before) != 15):
+        log(str(len(after)))
         triggerCommandC();
         after = getClipboardData();
         sleep(.3);
@@ -121,7 +122,8 @@ if __name__=='__main__':
         if (i > 4):
             break;
     decodeAfter = decodeClipboardData(after);
-    triggerCommandW();
+    if doClose:
+        triggerCommandW();
     search('#'+decodeAfter);
     setClipboardData(before);
 
