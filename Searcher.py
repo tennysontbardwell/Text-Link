@@ -102,7 +102,18 @@ def search(quary):
         if len(files) == 1:
             openFile(files[0]);
         else:
-            displayFiles(files);
+            shortest = files[0]
+            for f in files:
+                if len(f) < len(shortest):
+                    shortest = f
+            subset = True #true if all are a subpath of the shortest path
+            for f in files:
+                if f.find(shortest) == -1:
+                    break
+            if subset:
+                openFile(shortest)
+            else:
+                displayFiles(files);
 
 if __name__=='__main__':
     doClose = False;
