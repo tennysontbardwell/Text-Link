@@ -1,55 +1,69 @@
 #!/Library/Frameworks/Python.framework/Versions/3.5/bin/python3
-import sys;
-import subprocess;
-import shlex;
+import sys
+import subprocess
+import shlex
 from os import system
 from time import strftime
 from time import sleep
 
-pathToScript = "/Users/tbTennyson/User Documents/Computer/Called Upon/CodeSystem/Searcher/"; # must have / at end
-whiteListName = "whitelist.txt";
-blackListName = "blacklist.txt";
+pathToScript = "/Users/tbTennyson/UserDocuments/Computer/CalledUpon/" +\
+    "CodeSystem/Searcher/"
+# must have / at end
+whiteListName = "whitelist.txt"
+blackListName = "blacklist.txt"
 logName = "log.txt"
-displayName = "filesToDisplay/" # must have / at end
+displayName = "filesToDisplay/"  # must have / at end
 
-whiteFiles = '';
-blackFiles = '';
-with open(pathToScript+whiteListName) as f:
-    whiteFiles = f.read().splitlines();
-with open(pathToScript+blackListName) as f:
-    blackFiles = f.read().splitlines();
+whiteFiles = ''
+blackFiles = ''
+with open(pathToScript + whiteListName) as f:
+    whiteFiles = f.read().splitlines()
+with open(pathToScript + blackListName) as f:
+    blackFiles = f.read().splitlines()
 # print(blackFiles);
 
+
 def log(string):
-    with open(pathToScript+logName, "a") as f:
+    with open(pathToScript + logName, "a") as f:
         f.write(strftime("%Y-%m-%d %H,%M,%S: ") + string + "\n")
 
+
 def triggerCommandC():
-     system('osascript -e \'tell application "System Events" to keystroke "c" using {command down}\'');
+    system(
+        'osascript -e \'tell application "System Events" to keystroke "c"' +
+        ' using {command down}\'')
+
 
 def triggerCommandW():
-     system('osascript -e \'tell application "System Events" to keystroke "w" using {command down}\'');
+    system(
+        'osascript -e \'tell application "System Events" to keystroke "w"' +
+        ' using {command down}\'')
+
 
 def getClipboardData():
-    p = subprocess.check_output("pbpaste");
-    return p;
+    p = subprocess.check_output("pbpaste")
+    return p
+
 
 def decodeClipboardData(data):
-    return data.decode("utf-8");
+    return data.decode("utf-8")
+
 
 def setClipboardData(data):
     # http://www.macdrifter.com/2011/12/python-and-the-mac-clipboard.html
     p = subprocess.Popen(['pbcopy'], stdin=subprocess.PIPE)
     p.stdin.write(data)
     p.stdin.close()
-    retcode = p.wait()
+    p.wait()
+
 
 def getFilesFrom(filesStr):
     # filesStr is a string with multiple files each separated with a newline.
     # This must return a list of files
-    files = filesStr.splitlines();
-    files = [x for x in files if len(x) > 0];
-    return files;
+    files = filesStr.splitlines()
+    files = [x for x in files if len(x) > 0]
+    return files
+
 
 def checkInDirsList(file, dirs):
     # checks if the file is in one of the dirs pass in. dirs is a list of
@@ -57,84 +71,88 @@ def checkInDirsList(file, dirs):
     # print("-"+str(file)+"-");
     for d in dirs:
         if file.find(d) == 0:
-            return True;
-    return False;
+            return True
+    return False
+
 
 def openFile(file):
     # opens the file for the user
     # print(file)
-    p = subprocess.run(shlex.split('open "'+file+'"'));
+    subprocess.run(shlex.split('open "' + file + '"'))
+
 
 def displayFiles(files):
     # puts every files in a list into a textfiles and displays it to the user
-    path = pathToScript+displayName+"results-"+strftime("%Y-%m-%d %H,%M,%S")+".txt";
-    file = open(path,"w");
-    s = '';
+    path = pathToScript + displayName + "results-" + \
+        strftime("%Y-%m-%d %H,%M,%S") + ".txt"
+    file = open(path, "w")
+    s = ''
     for f in files:
-        s = s + f + '\n';
-    file.write(s);
+        s = s + f + '\n'
+    file.write(s)
     file.close()
-    openFile(path);
+    openFile(path)
+
 
 def search(quary):
-    p = subprocess.check_output(shlex.split("mdfind "+"'"+quary+"'"));
-    output = p.decode("utf-8"); 
-    files = getFilesFrom(output);
+    p = subprocess.check_output(shlex.split("mdfind " + "'" + quary + "'"))
+    output = p.decode("utf-8")
+    files = getFilesFrom(output)
     if len(files) == 0:
-        x = "No files found for quary: "+quary
+        x = "No files found for quary: " + quary
         log(x)
         displayFiles([x])
-        return;
+        return
     if len(files) == 1:
         openFile(files[0])
     # print("all: " +str(files));
-    files = [x for x in files if not checkInDirsList(x, blackFiles)];
+    files = [x for x in files if not checkInDirsList(x, blackFiles)]
     # print("no black: "+str(files));
-    white = [x for x in files if checkInDirsList(x, whiteFiles)];
+    white = [x for x in files if checkInDirsList(x, whiteFiles)]
     # return;
     # print("white: " + str(white));
     if len(white) > 0:
         if len(white) == 1:
-            openFile(white[0]);
+            openFile(white[0])
         else:
-            openFile(white);
+            openFile(white)
     elif len(files) > 0:
         if len(files) == 1:
-            openFile(files[0]);
+            openFile(files[0])
         else:
             shortest = files[0]
             for f in files:
                 if len(f) < len(shortest):
                     shortest = f
-            subset = True #true if all are a subpath of the shortest path
+            subset = True  # true if all are a subpath of the shortest path
             for f in files:
                 if f.find(shortest) == -1:
                     break
             if subset:
                 openFile(shortest)
             else:
-                displayFiles(files);
+                displayFiles(files)
 
-if __name__=='__main__':
-    doClose = False;
+if __name__ == '__main__':
+    doClose = False
     for arg in sys.argv:
         if arg == "doClose":
-            doClose = True;
-    before = getClipboardData();
-    triggerCommandC();
-    after = getClipboardData();
-    i = 0;
+            doClose = True
+    before = getClipboardData()
+    triggerCommandC()
+    sleep(.05)
+    after = getClipboardData()
+    i = 0
     while (after == before and len(before) != 15):
         log(str(len(after)))
-        triggerCommandC();
-        after = getClipboardData();
-        sleep(.3);
-        i += 1;
+        triggerCommandC()
+        after = getClipboardData()
+        sleep(.3)
+        i += 1
         if (i > 4):
-            break;
-    decodeAfter = decodeClipboardData(after);
+            break
+    decodeAfter = decodeClipboardData(after)
     if doClose:
-        triggerCommandW();
-    search('#'+decodeAfter);
-    setClipboardData(before);
-
+        triggerCommandW()
+    search('#' + decodeAfter)
+    setClipboardData(before)
