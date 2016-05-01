@@ -1,0 +1,725 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"h",
+				"hspace	Attr"
+			],
+			[
+				"semes",
+				"semesterType"
+			],
+			[
+				"cros",
+				"crosslisting"
+			],
+			[
+				"semest",
+				"semesterUrl〔variable〕"
+			],
+			[
+				"old",
+				"oldRosterURLs〔variable〕"
+			],
+			[
+				"format",
+				"formatFile"
+			],
+			[
+				"getSub",
+				"getSubjectURLs〔function〕"
+			],
+			[
+				"slug",
+				"slugPath"
+			],
+			[
+				"sub",
+				"subjectsPath"
+			],
+			[
+				"dump",
+				"dumpJson"
+			],
+			[
+				"slu",
+				"slugPath"
+			],
+			[
+				"trig",
+				"triggerCommandW〔function〕"
+			],
+			[
+				"sear",
+				"searchable〔variable〕"
+			],
+			[
+				"disp",
+				"displayFiles"
+			],
+			[
+				"begin",
+				"begin	\\begin{}…\\end{}"
+			],
+			[
+				"xl",
+				"XeLaTeX"
+			],
+			[
+				"di",
+				"description"
+			],
+			[
+				"enumer",
+				"enumerate"
+			],
+			[
+				"cl",
+				"class	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/LaTeX Build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/XeLaTeX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/LaTeX Build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/XeLaTeX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/XeLaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/LaTeX Build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/XeLaTeX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/LaTeX Build.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"enabe",
+				"Package Control: Enable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"change",
+				"Changelog"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"anaconda",
+				"Anaconda: Vagrant Enable"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"auto",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"format",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packagein",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"package dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"snipp",
+				"SublimeLinter: Report (Open Files)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"staus",
+				"Git: Status"
+			],
+			[
+				"stats",
+				"Git: Status"
+			],
+			[
+				"stau",
+				"Git: Stash Include Untracked"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"s",
+				"Sort Lines"
+			],
+			[
+				"git",
+				"Git: Tag"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"Package Control: remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 567.0
+	},
+	"console":
+	{
+		"height": 261.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/tbTennyson/UserDocuments/Computer/CalledUpon/CodeSystem/Searcher/Searcher.py",
+		"/Users/tbTennyson/UserDocuments/Computer/CalledUpon/CodeSystem/Searcher/Searcher.sublime-project",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/User/Python3.sublime-settings",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/tbTennyson/Desktop/Lists/Command Center.txt",
+		"/Users/tbTennyson/Desktop/Lists/March 2016/Job Search/Job Search with Kasisto.txt",
+		"/Users/tbTennyson/Desktop/Lists/March 2016/Job Search/List of Companies I'd Like to Apply to.txt",
+		"/Users/tbTennyson/UserDocuments/Education/Cornell University/Classes/CS 2800 #km2ujfszibujpkl/a11/Response/a11.tex",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/tbTennyson/UserDocuments/Education/Cornell University/Classes/CS 2800 #km2ujfszibujpkl/a10/Response/a10.tex",
+		"/Users/tbTennyson/Desktop/Lists/March 2016/Job Search/Getting a Job with Button.txt",
+		"/Users/tbTennyson/Desktop/Lists/Important Dates.txt",
+		"/Users/tbTennyson/Desktop/Lists/List of Minor Lists.txt",
+		"/Users/tbTennyson/Desktop/Lists/Journal #5qkh7v6ebxb97os/Journal 2016-04.txt",
+		"/Users/tbTennyson/UserDocuments/Projects/MyProgramming/2016 Spring/CornellRosterProject/temp.txt",
+		"/Users/tbTennyson/Desktop/Lists/Ideas for Projects:Programs to Explore.txt",
+		"/Users/tbTennyson/UserDocuments/Projects/MyProgramming/2016 Spring/CornellRosterProject/Plan.txt",
+		"/Users/tbTennyson/Desktop/dbtest.py",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/Anaconda/Default (OSX).sublime-keymap",
+		"/Users/tbTennyson/UserDocuments/Projects/MyProgramming/2016 Spring/CornellRosterProject/API Puller.py",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/Anaconda/README.md",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/.gitignore",
+		"/Users/tbTennyson/Desktop/Lists/iGEM/iGEM Website Project Notes.txt",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/team.php",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/accordion.php",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/aboutigem.php",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/recruiting.php",
+		"/Users/tbTennyson/Desktop/Lists/March 2016/Job Search/Getting a Job from Shoo-in.txt",
+		"/Users/tbTennyson/UserDocuments/Education/Cornell University/Classes/MATH 1920 #od0gv93xjimpxcl/Math 1920.txt",
+		"/Users/tbTennyson/Desktop/Lists/iGEM/iGEM Overview.txt",
+		"/Users/tbTennyson/Desktop/Lists/Interview the NYS Department of Agriculture.txt",
+		"/Users/tbTennyson/UserDocuments/Education/Cornell University/Classes/CHEM 2080 #5d51bzk73ax5ud6/Labs/E6 #7vo1put3c38zpzg/WriteUp/E6.tex",
+		"/Users/tbTennyson/UserDocuments/Education/Cornell University/Classes/CHEM 2080 #5d51bzk73ax5ud6/Labs/E6 #7vo1put3c38zpzg/WriteUp/E5.tex",
+		"/Users/tbTennyson/UserDocuments/Education/Cornell University/Classes/CS 2800 #km2ujfszibujpkl/a9/Response/a9.tex",
+		"/Users/tbTennyson/Desktop/Lists/Places I've been on Campus.txt",
+		"/Users/tbTennyson/Desktop/Lists/Classes To Look Into For the Fall 2016 Semseter.txt",
+		"/Users/tbTennyson/UserDocuments/Education/Cornell University/Classes/PHYS 1116/Notes.txt",
+		"/Users/tbTennyson/Desktop/transactions.qfx",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/navbar.php",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/css/footer.css",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/css/navbar.css",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/index.php",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/sponsors.php",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/subteams.php",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/js/video.js",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/js/script.js",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/achievements.php",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/projects.php",
+		"/Applications/MAMP/htdocs/iGEMCornellWebsite2016/html/footer.php",
+		"/Users/tbTennyson/UserDocuments/Computer/CalledUpon/CodeSystem/Ideas for Desktops.txt",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CS 2800/a9/Response/a9.tex",
+		"/Users/tbTennyson/Desktop/Lists/Internships to Look Out for Throughout Cornell.txt",
+		"/Users/tbTennyson/Desktop/Lists/#wsf35si87phshiw.txt",
+		"/Users/tbTennyson/Desktop/Lists/March 2016/Job Search/Task: Get A Job.txt",
+		"/Users/tbTennyson/Desktop/Lists/Technologies I Use.txt",
+		"/Users/tbTennyson/Desktop/Lists/Shopping List.txt",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/MATH 1920 #od0gv93xjimpxcl/Math 1920.txt",
+		"/Users/tbTennyson/Desktop/CUcourseopen.py",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CS 2800/a6/Response/a6.tex",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CS 2800/a8/Response/a8.tex",
+		"/Users/tbTennyson/Desktop/test.tex",
+		"/Users/tbTennyson/Desktop/Lists/March 2016/Job Search/test.tex",
+		"/Users/tbTennyson/Desktop/trials",
+		"/Users/tbTennyson/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/166250B6-D0F9-488F-9094-75CE11C8B83F/src/app/Flattener.java",
+		"/Users/tbTennyson/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/166250B6-D0F9-488F-9094-75CE11C8B83F/src/app/FlattenerTest.java",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/Exam Schedule.txt",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/MATH 1920 #od0gv93xjimpxcl/Prelim 1 Prep/Cheat Sheet/Prelim 1/Prelim 1 Cheat Sheet.tex",
+		"/Users/tbTennyson/Desktop/Lists/Chem 2080 Overview.txt",
+		"/Users/tbTennyson/Documents/workspace/NestFlattener/.gitignore",
+		"/Users/tbTennyson/Documents/workspace/NestFlattener/bin/app/Flattener.class",
+		"/Users/tbTennyson/Desktop/Lists/Journal #5qkh7v6ebxb97os/Journal 2016-03-27+.txt",
+		"/Users/tbTennyson/User Documents/Computer/Called Upon/CodeSystem/Searcher/Searcher.py",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/Super Calculator/Super Calculator.sublime-settings",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/Super Calculator/Default (OSX).sublime-keymap",
+		"/Users/tbTennyson/Desktop/Lists/March 2016/Job Search/Scripts to Use in Job Search.txt",
+		"/Users/tbTennyson/Desktop/Lists/Meeting with Professor Lillian Lee.txt",
+		"/Users/tbTennyson/Desktop/Lists/Meeting with Professor Walker White.txt",
+		"/Users/tbTennyson/Desktop/Lists/Meeting with Bala.txt",
+		"/Users/tbTennyson/Desktop/Lists/March 2016/Job Search/People to Contact in My Job Search.txt",
+		"/Users/tbTennyson/Desktop/Lists/iGEM/iGEM Online Saftey Courses.txt",
+		"/Users/tbTennyson/Desktop/Lists/Questions for Financial Aid Walkin Hours on April.txt",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CHEM 2080 #5d51bzk73ax5ud6/Labs/E4 #vvt4pce555gegrl/WriteUp/E4.tex",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CHEM 2080 #5d51bzk73ax5ud6/Labs/E3/Write Up/E3.tex",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CHEM 2080 #5d51bzk73ax5ud6/Labs/E4 #vvt4pce555gegrl/WriteUp/data/data1.csv",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CHEM 2080 #5d51bzk73ax5ud6/Labs/E4 #vvt4pce555gegrl/WriteUp/data/data2.csv",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/WordCount/WordCount.sublime-settings",
+		"/Users/tbTennyson/Library/Application Support/Sublime Text 3/Packages/User/WordCount.sublime-settings",
+		"/Users/tbTennyson/Desktop/Lists/Things to cover in Advising Meetings on April 11.txt",
+		"/Users/tbTennyson/Desktop/Lists/Talking with Joseph Halpern about Probability cour.txt",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CS 2800/a8/Response/data/7-4-28.csv",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/API Puller.py",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/temp.txt",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/class x:",
+		"/Users/tbTennyson/Desktop/Things to capture from my downloaded course roster.txt",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/data/raw_downloads/old_xml/FA08/AAS.html",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/data/raw_downloads/old_html/FA08/ASRC.html",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/data/slugs.json",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/data/raw_downloads/old_html/FA08/AAS.html",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/Old WebScraper/WebScraper.py",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/data/subjects.json",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/data/oldSubjectLinks.json",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/data/raw_downloads/new_api/FA15/CS.json",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/data/raw_downloads/old_html/FA08/COML.html",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/data/database.db",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/database.db",
+		"/Users/tbTennyson/Desktop/Cornell Roster Project/log.log",
+		"/Users/tbTennyson/Desktop/untitled folder/WebScraper.py",
+		"/Users/tbTennyson/Desktop/untitled folder/website.txt",
+		"/Users/tbTennyson/Desktop/Lists/Learning Differential Equations.txt",
+		"/Users/tbTennyson/Desktop/Lists/Cool Links:Books:Ideas:Generally Unorganized thing.txt",
+		"/Users/tbTennyson/User Documents/Computer/Called Upon/CodeSystem/Searcher/filesToDisplay/results-2016-04-08 00,59,12.txt",
+		"/Users/tbTennyson/Desktop/Lists/March 2016/Names/Names of people in my classes.txt",
+		"/Users/tbTennyson/Desktop/Lists/List of Doctors:Medical Notes.txt",
+		"/Users/tbTennyson/Desktop/Lists/How I organize my Life.txt",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/PHYS 1116/Notes.txt",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CHEM 2080 #5d51bzk73ax5ud6/Labs/E4 #vvt4pce555gegrl/E4.tex",
+		"/Users/tbTennyson/User Documents/Education/Cornell University/Classes/CS 2800/a7/Response/a7.tex",
+		"/Users/tbTennyson/Desktop/Lists/List of Books to look into.txt",
+		"/Users/tbTennyson/Desktop/Javascript/paperjs-v0.9.25/examples/messingAround/BouncingBalls.html",
+		"/Users/tbTennyson/Desktop/Javascript/paperjs-v0.9.25/messingAround/BouncingBalls.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"python_inter",
+			"python",
+			"PathToScript",
+			"BlackFiles",
+			"WhiteFiles",
+			"DisplayName",
+			"LogName",
+			"BlackListName",
+			"WhiteListName",
+			"pathToScript",
+			"blackFiles",
+			"whiteFiles",
+			"displayName",
+			"logName",
+			"blackListName",
+			"whiteListName",
+			"getClipboardData",
+			"alphalist",
+			"enumerate",
+			"\\|",
+			"|",
+			"\\end{center}",
+			"enumerate",
+			"item",
+			"enumerate",
+			"0",
+			"placeholders",
+			"mol",
+			"\\frac{base}{acid}",
+			"todo",
+			"text",
+			"t_1",
+			"height",
+			"big",
+			"left",
+			"a",
+			"flalign",
+			"$$",
+			"aligned",
+			"align",
+			"4em",
+			"enumerate",
+			"x",
+			"left",
+			"8",
+			"2",
+			"8",
+			"2",
+			"big",
+			"sponsors",
+			"p",
+			"650",
+			"align",
+			"name",
+			"was born on the same day as",
+			"is",
+			"a",
+			"$",
+			"exercises",
+			"cross",
+			"R",
+			"integral",
+			"integral_C",
+			"c(gra",
+			"\\nh2",
+			"\\nco2",
+			"\\nc",
+			"\\nh2o",
+			"\\nc",
+			"\\n",
+			"todo",
+			"\\%",
+			"table",
+			"mee",
+			"scroll",
+			"oldRosterURLs",
+			"print",
+			"extractYears",
+			"getSlugs",
+			"extractYears",
+			"minus",
+			"-",
+			"x",
+			"\\|",
+			"|",
+			",",
+			"Car",
+			"env",
+			"\\|",
+			"|",
+			"\\text{Box 1",
+			"Pr(\\text{Box 2}",
+			"align",
+			"todo",
+			"\\=",
+			"table",
+			"todo",
+			"Questions in Book",
+			"qoy9xcjzma7ffua",
+			"getoutput",
+			"pythone",
+			"print",
+			"side.*bar",
+			"print",
+			"wrap",
+			"#review",
+			"yc727",
+			"tud",
+			"study",
+			"d",
+			"study",
+			"threeline",
+			"three",
+			"threeline",
+			"small",
+			"textwidth",
+			"\\everypar{\\hangindent=1.5em}",
+			"- ",
+			"proof",
+			"\\*",
+			"\\+",
+			"\\equiv",
+			"=",
+			"then",
+			"=",
+			"]=[",
+			"—",
+			"?<?php bu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 242.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 112.0
+	},
+	"output.git-init":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 241.0
+	},
+	"pinned_build_system": "",
+	"project": "Searcher.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Sublime TEXT with Key/Sublime text 3 key.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
