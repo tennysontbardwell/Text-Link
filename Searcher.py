@@ -125,7 +125,7 @@ def search(quary: str) -> list:
                 if f.find(shortest) == -1:
                     break
             if subset:
-                return shortest
+                return [shortest]
             else:
                 return files
 
